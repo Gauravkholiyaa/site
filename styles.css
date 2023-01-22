@@ -1,0 +1,563 @@
+
+body {
+  overflow-x : hidden;
+}
+
+.section1{
+  padding-bottom:150px;
+  color:#fff;
+}
+.gra{
+  width:auto;
+  height:50vh;
+}
+.first-container{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+}
+#text-section1{
+  padding-top: 100px;
+  padding-left: 100px;
+}
+#heading{
+  font-size: 3.5rem;
+  line-height:1.5;
+}
+.row{
+  color:#fff;
+  animation-name: none;
+}
+.gehu-img{
+  margin-top: 60px;
+  padding-top: 50px;
+  width:95%;
+  height:400px;
+  text-align: left;
+}
+
+.section2{
+  background: #fff;
+  padding-bottom: 150px;
+}
+
+.d-block.w-100.faang
+{
+  height: 400px;
+  width:400px;
+}
+.abc{
+padding :100px;
+}
+#carouselExampleIndicators{
+  margin-left: 50px;
+  margin-right: 40px;
+}
+#carouselExampleIndicators2 {
+  margin-left: 50px;
+  margin-right: 40px;
+}
+#carouselExampleIndicators3 {
+  margin-left: 50px;
+  margin-right: 40px;
+}
+.last-section{
+  background-color: #808080;
+}
+
+.container-fluid2{
+  padding: 7% 15%;
+  text-align: center;
+  color: black;
+}
+
+.section3{
+  padding-bottom:100px;
+  background-color: black;
+  padding-bottom:200px;
+
+
+}
+#text-section3{
+  color:#fff;
+  padding-left: 100px;
+  padding-top:150px;
+
+}
+#more {display: none;}
+
+
+
+
+
+/** new**/
+.logo{
+  height:200px;
+  width:300px;
+}
+
+.section-4{
+  background-color: #fff;
+  padding:100px;
+
+}
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  margin:10px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /*Remove this if you don't want the 3D effect*/
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.icon{
+  padding-top: 40px;
+}
+#map {
+  padding-left: 200px;
+}
+#sec4{
+  padding-bottom:70px;
+}
+@media(max-width:1200px)
+{
+  
+  .col-lg-3 {
+    width: 50%;
+    padding-left:30px;
+    padding-right:30px;
+  }
+
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+  }
+
+  .section-4 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  #carouselExampleIndicators {
+    margin: 50px;
+  }
+
+  #carouselExampleIndicators2 {
+    margin: 50px;
+  }
+
+  #carouselExampleIndicators3 {
+    margin: 50px;
+  }
+  .abc{
+    padding-bottom: 0px;
+  }
+  #carousel{
+    width:50%;
+  }
+        #heading {
+          font-size: 3.2rem;
+          line-height: 1.5;
+        }
+        .col-lg-6{
+          width:100%;
+        }
+      
+      .text-section-1{
+        width:100%;
+      }
+      .gehu-img{
+        padding:60px;
+        padding-left:90px;
+      }
+            #map {
+              padding-left: 0%;
+            }
+}
+@media (max-width:992px) {
+
+  .navbar-brand {
+      padding-right: 400px;
+    }
+  
+    #text-section1 {
+      padding-top: 100px;
+      padding-left: 100px;
+  
+    }
+  
+    #heading {
+      font-size: 3.2rem;
+      line-height: 1.5;
+    }
+  .col-lg-3 {
+    width: 50%;
+  }
+
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+  }
+
+  .section-4 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  #carouselExampleIndicators {
+    margin: 50px;
+  }
+
+  #carouselExampleIndicators2 {
+    margin: 50px;
+  }
+
+  #carouselExampleIndicators3 {
+    margin: 50px;
+  }
+        .nav-link {
+          text-align: left;
+        }
+  #map{
+    padding-left: 0%;
+  }
+}
+@media (max-width:768px) {
+  .navbar-brand {
+      padding-right: 100px;
+  
+    }
+  .section1 {
+    padding-bottom: 120px;
+  }
+
+  #text-section1 {
+    padding-top: 100px;
+    padding-left: 100px;
+
+  }
+
+  #heading {
+    font-size: 3.2rem;
+    line-height: 1.5;
+  }
+
+  .section2 {
+    background: #fff;
+    padding-bottom: 100px;
+  }
+
+  #carouselExampleIndicators {
+    margin: 50px;
+  }
+
+  #carouselExampleIndicators2 {
+    margin: 50px;
+  }
+
+  #carouselExampleIndicators3 {
+    margin: 50px;
+  }
+  
+
+  .section-4 {
+    background-color: #fff;
+    padding-left: 60px;
+    padding-right:60px;
+  }
+
+  .abc {
+    padding-bottom: 0px;
+
+  }
+
+  #sec4 {
+    font-size: 30px;
+  }
+
+  
+  .flip-card-front{
+    background: black;
+  }
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    
+    /* Remove this if you don't want the 3D effect */
+  }
+
+  .last-section {
+    padding-top: 50px;
+  }
+
+  #last {
+    padding-bottom: 60px;
+  }
+
+  #map {
+    padding: 0px;
+  }
+
+  .nav-link {
+    text-align: left;
+  }
+
+  .flip-card {
+    width: 100%;
+  }
+
+  .gehu-img {
+    padding-left: 80px;
+  }
+
+  .logo{
+    width:100%;
+  }
+  .col-lg-3 {
+      width: 50%;
+    }
+        #carousel {
+          width: 100%;
+        }
+  .d-block.w-100.faang{
+    height:10%;
+  }
+    
+}
+@media (max-width:600px)
+{
+  .navbar-brand {
+      padding-right: 100px;
+      margin-right: 0px;
+    }
+  .section1 {
+      padding-bottom: 120px;
+    }
+        #text-section1 {
+          padding-top: 100px;
+          padding-left: 100px;
+          
+        }
+        #heading {
+          font-size: 3.2rem;
+          line-height: 1.5;
+        }
+        .section2 {
+          background: #fff;
+          padding-bottom: 100px;
+        }
+#carouselExampleIndicators {
+  margin: 50px;
+}
+#carouselExampleIndicators2 {
+  margin: 50px;
+}
+#carouselExampleIndicators3 {
+  margin: 50px;
+}
+.gehu-img{
+  padding:0px;
+  width:500px;
+  height:200px;
+  padding-left:80px;
+  
+}
+.section-4 {
+  background-color: #fff;
+  padding: 60px;
+  
+}
+.abc{
+  padding-bottom:0px;
+  
+}
+
+#sec4 {
+  font-size: 30px;
+  padding-right:10px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  margin-bottom:30px;
+  margin-left: 50px;
+  padding-left:0px;
+  margin-right:50px;
+  border: 1px solid #f1f1f1;
+  
+  perspective: 1000px;
+  /* Remove this if you don't want the 3D effect*/
+ }
+.last-section{
+  padding-top:50px;
+}
+#last{
+  padding-bottom:60px;
+}
+#map{
+  padding:0px;
+}
+.nav-link{
+  text-align:left;
+}  
+.col-lg-3 {
+  width: 100%;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+}
+@media (max-width:550px) {
+  .section1 {
+    padding-bottom: 120px;
+  }
+    .gehu-img {
+      padding: 0px;
+      width: 500px;
+      height: 200px;
+      padding-left: 80px;
+      padding-right:60px;
+  
+    }
+  #text-section1 {
+    padding-top: 100px;
+    padding-left: 100px;
+
+  }
+
+  #heading {
+    font-size: 3.2rem;
+    line-height: 1.5;
+  }
+
+  .section2 {
+    background: #fff;
+    padding-bottom: 100px;
+  }
+
+  #carouselExampleIndicators {
+    margin: 50px;
+  }
+
+  #carouselExampleIndicators2 {
+    margin: 50px;
+  }
+
+  #carouselExampleIndicators3 {
+    margin: 50px;
+  }
+
+  .section-4 {
+    background-color: #fff;
+    padding: 60px;
+
+  }
+
+  .abc {
+    padding-bottom: 0px;
+
+  }
+
+  #sec4 {
+    font-size: 30px;
+    padding-right: 10px;
+  }
+
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    padding-left: 0px;
+    margin-right: 50px;
+    border: 1px solid #f1f1f1;
+
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect*/
+  }
+
+  .last-section {
+    padding-top: 50px;
+  }
+
+  #last {
+    padding-bottom: 60px;
+  }
+
+  #map {
+    padding: 0px;
+  }
+
+  .nav-link {
+    text-align: left;
+  }
+
+  .col-lg-3 {
+    width: 100%;
+    padding-left:0px;
+    padding-right: 30px;
+  }
+
+}

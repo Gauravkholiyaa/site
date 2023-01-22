@@ -1,0 +1,84 @@
+body{
+  background-color: 	#FFEBCD;
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(white,pink, rgb(234, 234, 93),rgb(49, 253, 49));
+
+}
+
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.section1{
+  padding-top: 30px;
+  padding-left:40px;
+}
+.section2{
+  padding-top:60px;
+  padding-left: 40px;
+}
+.section3{
+  padding-top:60px;
+  padding-bottom:20px;
+  padding-left: 40px;
+}
+.last-section{
+  padding-top: 60px;
+  text-align: center;
+  padding-left: 40px;
+}
+.icon{
+  padding-top: 50px;
+  text-align: center;
+}
+#map{
+  padding-left: 100px;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-right: 100px;
+}
+button{
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+.last-section{
+  background-color: grey;
+  padding-bottom: 30px;
+}
+
+
+@media(max-width:768px)
+{
+  .section1 {
+      padding: 30px;
+      text-align: center;
+      padding-top: 70px;
+    }
+    .section2 {
+      padding: 30px;
+      padding-top: 60px;
+      text-align: center;
+
+    }
+  
+    .section3 {
+      padding: 30px;
+      padding-top: 60px;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+  
+    .last-section {
+      padding-top: 60px;
+      text-align: center;
+    }
+        #map {
+          padding-top:50px;
+          padding-left: 0px;
+        }
+}

@@ -1,0 +1,100 @@
+#testimonials {
+  background-color: #ef8172;
+}
+
+.d-block{
+  height:500px;
+}
+.anc{
+  padding-top: 50px;
+}
+.last-section{
+  padding-top: 60px;
+  text-align: center;
+  background-color: grey;
+  padding-bottom:40px;
+}
+.icon{
+  padding-top: 50px;
+  text-align: center;
+}
+.a{
+  padding-bottom:20px;
+
+}
+.section1{
+  padding: 100px;
+  padding-bottom: 0px;
+  padding-top: 50px;
+}
+.section2{
+  padding:100px;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-right: 100px;
+
+}
+button{
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+@media(max-width:992px)
+{
+  #carouselExampleIndicators {
+      margin: 50px;
+    }
+  
+    #carouselExampleIndicators2 {
+      margin: 50px;
+    }
+  
+    #carouselExampleIndicators3 {
+      margin: 50px;
+    }
+}
+@media (max-width:600px)
+{
+  #carouselExampleIndicators {
+      margin: 30px;
+      
+    }
+  
+    #carouselExampleIndicators2 {
+      margin: 30px;
+    }
+  
+    #carouselExampleIndicators3 {
+      margin: 30px;
+    }
+    
+    .d-block{
+      height:70%;
+    }
+        .section2 {
+          padding-top: 40px;
+        }
+}
+@media (max-width:550px) {
+  #carouselExampleIndicators {
+    margin: 20px;
+
+  }
+
+  #carouselExampleIndicators2 {
+    margin: 20px;
+  }
+
+  #carouselExampleIndicators3 {
+    margin: 20px;
+  }
+
+  .d-block {
+    height: 100%;
+  }
+  .section2{
+    padding-top:40px;
+  }
+}
